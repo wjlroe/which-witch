@@ -1,4 +1,7 @@
+require 'webmock/rspec'
 require 'vcr'
+
+require_relative './support/file_fixtures'
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'

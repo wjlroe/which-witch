@@ -32,6 +32,10 @@ class Position
     end
   end
 
+  def coordinates
+    "(#{x},#{y})"
+  end
+
   private
 
   def directions

@@ -163,4 +163,10 @@ RSpec.describe Position do
       forward_doesnt_change_direction
     end
   end
+
+  describe 'coordinates' do
+    it 'formats x and y as coordinates' do
+      expect(subject.coordinates).to eq('(0,0)')
+    end
+  end
 end

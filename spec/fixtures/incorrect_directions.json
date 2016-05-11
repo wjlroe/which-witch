@@ -1,0 +1,14 @@
+{
+    "directions": [
+        "left",
+        "right",
+        "forward",
+        "right",
+        "forward",
+        "forward",
+        "right",
+        "forward",
+        "forward",
+        "left"
+    ]
+}
