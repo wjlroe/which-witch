@@ -7,7 +7,6 @@ gem 'rake'
 group :development, :test do
   gem 'rspec'
   gem 'rubocop'
-  gem 'vcr'
   gem 'webmock'
   gem 'pry'
   gem 'pry-byebug'
