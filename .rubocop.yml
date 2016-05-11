@@ -1,0 +1,42 @@
+AllCops:
+  Exclude:
+    - '**/db/**/*'
+    - '**/config/**/*'
+    - '**/db/schema.rb'
+    - '**/vendor/**/*'
+    - '**/Gemfile'
+    - '**/Gemfile.lock'
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+  IgnoredMethods:
+    - specify
+    - let!
+    - let
+    - subject
+    - it
+    - validate
+    - sidekiq_retry_in
+  FunctionalMethods:
+    - recurrence
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: nested
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Rails/Date:
+  EnforcedStyle: flexible
